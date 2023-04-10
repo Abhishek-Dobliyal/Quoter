@@ -50,8 +50,6 @@ import axios from "axios";
 import { onMounted, reactive, ref } from "vue";
 
 const apiUrl = "https://api.quotable.io/quotes/random?maxLength=100&minLength=75";
-const heading = ref("Quoter");
-const subHeading = ref("Get Inspired with Every Click");
 const isLoading = ref(false);
 const gradient = [
   "linear-gradient(lightcyan, lightpink)",
